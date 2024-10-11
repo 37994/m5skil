@@ -1,0 +1,37 @@
+.header {
+    width: 100vw;
+    height: 10rem;
+    background: rgba(56, 116, 120, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    color: #eee;
+    font-size: 130%;
+    padding: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+.nav__cta {
+    width: 11rem;
+    padding: 1rem;
+    font-size: 70%;
+    background: #e2f1e7;
+    border: none;
+    border-radius: 0.5rem;
+
+    &:hover {
+        cursor: pointer;
+        background-color: hsl(140, 35%, 87%);
+        transition: 0.2s;
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "dev": "sass -w --no-source-map --style compressed scss/reset.scss:css/style.css"
+    }
+}
